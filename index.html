@@ -1,83 +1,190 @@
 <!DOCTYPE html>
-<html lang="fr" class="dark">
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enhanced Landing Page</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <html lang="fr" class="dark scroll-smooth">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Elite Diet 974 - Spécialiste en nutrition sportive</title>
     <meta name="description" content="Le plus grand choix de protéines à la Réunion - Whey, prise de masse, sèche, force, endurance">
     <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
 </head>
 <body class="bg-gray-900 text-gray-100">
     <header class="fixed w-full z-50 bg-gray-900/95 backdrop-blur-sm border-b border-gray-800">
         <nav class="container mx-auto px-6 py-4">
             <div class="flex items-center justify-between">
-                <div class="text-2xl font-bold bg-gradient-to-r from-purple-500 to-pink-500 bg-clip-text text-transparent">
+                <a href="https://valdeno974.github.io/elite-diet-974-le-sp-cialiste-en-nutrition-sportive-2025-03-04-w0pza" class="text-2xl font-bold bg-gradient-to-r from-purple-500 to-pink-500 bg-clip-text text-transparent hover:scale-105 transition-transform duration-300">
                     Elite Diet 974
-                </div>
+                </a>
                 <div class="hidden md:flex space-x-8">
-                    <a href="#" class="hover:text-purple-400 transition-colors duration-300">Accueil</a>
-                    <a href="#" class="hover:text-purple-400 transition-colors duration-300">Produits</a>
-                    <a href="#" class="hover:text-purple-400 transition-colors duration-300">Contact</a>
+                    <a href="#accueil" class="hover:text-purple-400 transition-colors duration-300">Accueil</a>
+                    <a href="#produits" class="hover:text-purple-400 transition-colors duration-300">Produits</a>
+                    <a href="#about" class="hover:text-purple-400 transition-colors duration-300">À propos</a>
+                    <a href="#testimonials" class="hover:text-purple-400 transition-colors duration-300">Témoignages</a>
+                    <a href="#faq" class="hover:text-purple-400 transition-colors duration-300">FAQ</a>
+                    <a href="#contact" class="hover:text-purple-400 transition-colors duration-300">Contact</a>
                 </div>
-                <button class="md:hidden text-gray-100">
-                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
-                    </svg>
+                <button class="mobile-menu-button md:hidden" aria-label="Menu mobile">
+                    <i class="fas fa-bars text-2xl"></i>
                 </button>
+            </div>
+            <div class="mobile-menu hidden md:hidden mt-4 bg-gray-800 rounded-lg p-4">
+                <a href="#accueil" class="block py-2 px-4 hover:bg-gray-700 rounded transition-colors duration-300">Accueil</a>
+                <a href="#produits" class="block py-2 px-4 hover:bg-gray-700 rounded transition-colors duration-300">Produits</a>
+                <a href="#about" class="block py-2 px-4 hover:bg-gray-700 rounded transition-colors duration-300">À propos</a>
+                <a href="#testimonials" class="block py-2 px-4 hover:bg-gray-700 rounded transition-colors duration-300">Témoignages</a>
+                <a href="#faq" class="block py-2 px-4 hover:bg-gray-700 rounded transition-colors duration-300">FAQ</a>
+                <a href="#contact" class="block py-2 px-4 hover:bg-gray-700 rounded transition-colors duration-300">Contact</a>
             </div>
         </nav>
     </header>
 
     <main>
-        <section class="relative min-h-screen flex items-center justify-center py-32">
-            <div class="absolute inset-0 bg-gradient-to-br from-purple-900 via-gray-900 to-gray-900 opacity-90"></div>
+        <section id="accueil" class="relative min-h-screen flex items-center justify-center py-32">
+            <div class="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1534438327276-14e5300c3a48?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80')] bg-cover bg-center"></div>
+            <div class="absolute inset-0 bg-gradient-to-br from-purple-900/90 via-gray-900/90 to-gray-900/90"></div>
             <div class="container mx-auto px-6 relative z-10">
                 <div class="text-center">
-                    <h1 class="text-4xl md:text-6xl lg:text-7xl font-extrabold mb-8 bg-gradient-to-r from-purple-400 to-pink-500 bg-clip-text text-transparent">
+                    <h1 class="text-4xl md:text-6xl lg:text-7xl font-extrabold mb-8 bg-gradient-to-r from-purple-400 to-pink-500 bg-clip-text text-transparent animate-fade-in">
                         Elite Diet 974
                     </h1>
                     <p class="text-xl md:text-2xl lg:text-3xl text-gray-300 mb-12">
-                        Le plus grand choix de protéines à la Réunion
+                        Votre partenaire nutrition pour des performances exceptionnelles
                     </p>
-                    <a href="#contact" class="inline-block bg-gradient-to-r from-purple-500 to-pink-500 px-8 py-4 rounded-full text-lg font-semibold hover:shadow-lg hover:shadow-purple-500/25 transform hover:scale-105 transition-all duration-300">
+                    <a href="#produits" class="inline-block bg-gradient-to-r from-purple-500 to-pink-500 px-8 py-4 rounded-full text-lg font-semibold hover:shadow-lg hover:shadow-purple-500/25 transform hover:scale-105 transition-all duration-300">
                         Découvrir nos produits
                     </a>
                 </div>
             </div>
         </section>
 
-        <section class="py-24 bg-gray-800">
+        <section id="produits" class="py-24 bg-gray-800">
             <div class="container mx-auto px-6">
-                <h2 class="text-3xl md:text-4xl font-bold text-center mb-16">Nos Spécialités</h2>
+                <h2 class="text-3xl md:text-4xl font-bold text-center mb-16">Nos Spécialités Premium</h2>
                 <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                     <div class="bg-gray-900 rounded-2xl p-8 hover:shadow-xl hover:shadow-purple-500/10 transform hover:scale-105 transition-all duration-300">
-                        <div class="w-16 h-16 bg-gradient-to-br from-purple-500 to-pink-500 rounded-lg mb-6"></div>
-                        <h3 class="text-xl font-bold mb-4">Whey</h3>
-                        <p class="text-gray-400">Protéines premium pour vos objectifs</p>
+                        <div class="w-16 h-16 bg-gradient-to-br from-purple-500 to-pink-500 rounded-lg mb-6 flex items-center justify-center">
+                            <i class="fas fa-dumbbell text-2xl text-white"></i>
+                        </div>
+                        <h3 class="text-xl font-bold mb-4">Whey Premium</h3>
+                        <p class="text-gray-400">Protéines de haute qualité avec 24g par portion, enrichies en BCAA et glutamine pour une récupération optimale.</p>
                     </div>
                     <div class="bg-gray-900 rounded-2xl p-8 hover:shadow-xl hover:shadow-purple-500/10 transform hover:scale-105 transition-all duration-300">
-                        <div class="w-16 h-16 bg-gradient-to-br from-purple-500 to-pink-500 rounded-lg mb-6"></div>
-                        <h3 class="text-xl font-bold mb-4">Prise de masse</h3>
-                        <p class="text-gray-400">Solutions complètes pour la masse</p>
+                        <div class="w-16 h-16 bg-gradient-to-br from-purple-500 to-pink-500 rounded-lg mb-6 flex items-center justify-center">
+                            <i class="fas fa-weight text-2xl text-white"></i>
+                        </div>
+                        <h3 class="text-xl font-bold mb-4">Mass Gainer Elite</h3>
+                        <p class="text-gray-400">Formule avancée avec 1000 calories par portion, ratio optimal protéines/glucides et enzymes digestives.</p>
                     </div>
                     <div class="bg-gray-900 rounded-2xl p-8 hover:shadow-xl hover:shadow-purple-500/10 transform hover:scale-105 transition-all duration-300">
-                        <div class="w-16 h-16 bg-gradient-to-br from-purple-500 to-pink-500 rounded-lg mb-6"></div>
-                        <h3 class="text-xl font-bold mb-4">Sèche</h3>
-                        <p class="text-gray-400">Produits définition musculaire</p>
+                        <div class="w-16 h-16 bg-gradient-to-br from-purple-500 to-pink-500 rounded-lg mb-6 flex items-center justify-center">
+                            <i class="fas fa-fire text-2xl text-white"></i>
+                        </div>
+                        <h3 class="text-xl font-bold mb-4">Définition Ultime</h3>
+                        <p class="text-gray-400">Complexe thermogénique avancé avec L-carnitine, CLA et extraits naturels pour une définition maximale.</p>
                     </div>
                 </div>
             </div>
         </section>
 
-        <section class="py-24 bg-gradient-to-br from-gray-900 to-purple-900">
+        <section id="about" class="py-24 bg-gray-900">
+            <div class="container mx-auto px-6">
+                <h2 class="text-3xl md:text-4xl font-bold text-center mb-16">À Propos d'Elite Diet 974</h2>
+                <div class="max-w-4xl mx-auto space-y-8">
+                    <p class="text-lg text-gray-300">
+                        Fondée en 2020 à Saint-Denis de La Réunion, Elite Diet 974 est née de la passion de deux athlètes professionnels déterminés à offrir des produits de nutrition sportive de première qualité aux sportifs réunionnais. Notre expertise unique combine connaissance approfondie des besoins nutritionnels et engagement envers l'excellence.
+                    </p>
+                    <p class="text-lg text-gray-300">
+                        Notre mission est d'accompagner chaque athlète dans l'atteinte de ses objectifs en proposant des produits premium, rigoureusement sélectionnés et scientifiquement validés. Nos valeurs fondamentales - qualité, authenticité, innovation et service client personnalisé - guident chacune de nos actions.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section id="testimonials" class="py-24 bg-gray-800">
+            <div class="container mx-auto px-6">
+                <h2 class="text-3xl md:text-4xl font-bold text-center mb-16">Ce que disent nos clients</h2>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                    <div class="bg-gray-900 p-6 rounded-xl hover:shadow-lg hover:shadow-purple-500/10 transition-all duration-300">
+                        <div class="flex items-center mb-4">
+                            <span class="text-yellow-400">★★★★★</span>
+                        </div>
+                        <p class="text-gray-300 mb-4">"La Whey Premium d'Elite Diet a transformé ma récupération post-entraînement. Gain de 4kg de masse musculaire en 3 mois !"</p>
+                        <p class="font-semibold">Thomas D.</p>
+                        <p class="text-sm text-gray-400">Coach CrossFit</p>
+                    </div>
+                    <div class="bg-gray-900 p-6 rounded-xl hover:shadow-lg hover:shadow-purple-500/10 transition-all duration-300">
+                        <div class="flex items-center mb-4">
+                            <span class="text-yellow-400">★★★★★</span>
+                        </div>
+                        <p class="text-gray-300 mb-4">"Excellent service client et conseils personnalisés. Leur Mass Gainer Elite m'a permis d'atteindre mes objectifs de prise de masse plus rapidement que prévu."</p>
+                        <p class="font-semibold">Sophie M.</p>
+                        <p class="text-sm text-gray-400">Athlète de force</p>
+                    </div>
+                    <div class="bg-gray-900 p-6 rounded-xl hover:shadow-lg hover:shadow-purple-500/10 transition-all duration-300">
+                        <div class="flex items-center mb-4">
+                            <span class="text-yellow-400">★★★★★</span>
+                        </div>
+                        <p class="text-gray-300 mb-4">"Les produits sont d'une qualité exceptionnelle. La formule Définition Ultime m'a aidé à perdre 6% de graisse corporelle en 12 semaines."</p>
+                        <p class="font-semibold">Marc L.</p>
+                        <p class="text-sm text-gray-400">Compétiteur Bodybuilding</p>
+                    </div>
+                    <div class="bg-gray-900 p-6 rounded-xl hover:shadow-lg hover:shadow-purple-500/10 transition-all duration-300">
+                        <div class="flex items-center mb-4">
+                            <span class="text-yellow-400">★★★★★</span>
+                        </div>
+                        <p class="text-gray-300 mb-4">"Enfin des produits de qualité disponibles à La Réunion ! La livraison est rapide et le rapport qualité-prix imbattable."</p>
+                        <p class="font-semibold">Julie R.</p>
+                        <p class="text-sm text-gray-400">Triathlète</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="faq" class="py-24 bg-gradient-to-br from-gray-900 to-purple-900">
+            <div class="container mx-auto px-6">
+                <h2 class="text-3xl md:text-4xl font-bold text-center mb-16">Questions Fréquentes</h2>
+                <div class="max-w-3xl mx-auto space-y-6">
+                    <div class="bg-gray-800 rounded-xl p-6 hover:shadow-lg transition-all duration-300">
+                        <h3 class="text-xl font-semibold mb-4">Quels sont les délais de livraison à La Réunion ?</h3>
+                        <p class="text-gray-300">Nous livrons partout à La Réunion sous 24-48h ouvrées. La livraison est gratuite pour toute commande supérieure à 50€.</p>
+                    </div>
+                    <div class="bg-gray-800 rounded-xl p-6 hover:shadow-lg transition-all duration-300">
+                        <h3 class="text-xl font-semibold mb-4">Comment choisir le bon produit pour mes objectifs ?</h3>
+                        <p class="text-gray-300">Nos experts sont disponibles pour vous conseiller personnellement. Contactez-nous avec vos objectifs et nous vous guiderons vers les meilleurs produits adaptés.</p>
+                    </div>
+                    <div class="bg-gray-800 rounded-xl p-6 hover:shadow-lg transition-all duration-300">
+                        <h3 class="text-xl font-semibold mb-4">Vos produits sont-ils certifiés ?</h3>
+                        <p class="text-gray-300">Tous nos produits sont certifiés par des laboratoires indépendants et conformes aux normes européennes. Nous garantissons leur qualité et leur pureté.</p>
+                    </div>
+                    <div class="bg-gray-800 rounded-xl p-6 hover:shadow-lg transition-all duration-300">
+                        <h3 class="text-xl font-semibold mb-4">Proposez-vous des échantillons ?</h3>
+                        <p class="text-gray-300">Oui, nous proposons des packs découverte permettant de tester nos différents produits avant un achat plus conséquent.</p>
+                    </div>
+                    <div class="bg-gray-800 rounded-xl p-6 hover:shadow-lg transition-all duration-300">
+                        <h3 class="text-xl font-semibold mb-4">Quelle est votre politique de retour ?</h3>
+                        <p class="text-gray-300">Nous offrons une garantie satisfaction de 30 jours. Si vous n'êtes pas satisfait, nous vous remboursons intégralement.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="py-24 bg-gradient-to-br from-gray-900 to-purple-900">
             <div class="container mx-auto px-6 text-center">
-                <h2 class="text-3xl md:text-4xl font-bold mb-8">Les meilleures marques de protéines pour le sport</h2>
+                <h2 class="text-3xl md:text-4xl font-bold mb-8">Contactez nos experts en nutrition</h2>
                 <p class="text-xl text-gray-300 mb-12 max-w-3xl mx-auto">
-                    Découvrez notre sélection exclusive des meilleures marques mondiales
+                    Besoin de conseils personnalisés ? Notre équipe d'experts est à votre disposition pour vous guider vers les meilleurs choix nutritionnels.
                 </p>
-                <a href="mailto:contact@valdeno.re" class="inline-block bg-white text-gray-900 px-8 py-4 rounded-full text-lg font-semibold hover:shadow-lg transform hover:scale-105 transition-all duration-300">
-                    Contactez-nous
+                <a href="mailto:contact@valdeno.re" class="inline-block bg-white text-gray-900 px-8 py-4 rounded-full text-lg font-semibold hover:shadow-lg hover:shadow-white/20 transform hover:scale-105 transition-all duration-300">
+                    Contactez-nous maintenant
                 </a>
             </div>
         </section>
@@ -95,11 +202,26 @@
                     <a href="mailto:contact@valdeno.re" class="text-gray-400 hover:text-purple-400 transition-colors duration-300">contact@valdeno.re</a>
                 </div>
                 <div>
-                    <h3 class="text-xl font-bold mb-4">Liens</h3>
+                    <h3 class="text-xl font-bold mb-4">Liens Utiles</h3>
                     <ul class="space-y-2">
-                        <li><a href="#" class="text-gray-400 hover:text-purple-400 transition-colors duration-300">Mentions légales</a></li>
-                        <li><a href="#" class="text-gray-400 hover:text-purple-400 transition-colors duration-300">Politique de confidentialité</a></li>
+                        <li><a href="https://valdeno974.github.io/elite-diet-974-le-sp-cialiste-en-nutrition-sportive-2025-03-04-w0pza/blog.html" class="text-gray-400 hover:text-purple-400 transition-colors duration-300">Blog</a></li>
+                        <li><a href="https://valdeno974.github.io/elite-diet-974-le-sp-cialiste-en-nutrition-sportive-2025-03-04-w0pza/terms.html" class="text-gray-400 hover:text-purple-400 transition-colors duration-300">Conditions générales</a></li>
+                        <li><a href="https://valdeno974.github.io/elite-diet-974-le-sp-cialiste-en-nutrition-sportive-2025-03-04-w0pza/privacy.html" class="text-gray-400 hover:text-purple-400 transition-colors duration-300">Politique de confidentialité</a></li>
                     </ul>
+                </div>
+                <div>
+                    <h3 class="text-xl font-bold mb-4">Suivez-nous</h3>
+                    <div class="flex space-x-4">
+                        <a href="#" class="text-gray-400 hover:text-purple-400 transition-colors duration-300">
+                            <i class="fab fa-facebook text-2xl"></i>
+                        </a>
+                        <a href="#" class="text-gray-400 hover:text-purple-400 transition-colors duration-300">
+                            <i class="fab fa-instagram text-2xl"></i>
+                        </a>
+                        <a href="#" class="text-gray-400 hover:text-purple-400 transition-colors duration-300">
+                            <i class="fab fa-twitter text-2xl"></i>
+                        </a>
+                    </div>
                 </div>
             </div>
             <div class="mt-12 pt-8 border-t border-gray-800 text-center text-gray-400">
@@ -107,5 +229,36 @@
             </div>
         </div>
     </footer>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const mobileMenuButton = document.querySelector('header nav .mobile-menu-button');
+            const mobileMenu = document.querySelector('header nav .mobile-menu');
+            
+            if (mobileMenuButton && mobileMenu) {
+                mobileMenuButton.addEventListener('click', () => {
+                    mobileMenu.classList.toggle('hidden');
+                    const icon = mobileMenuButton.querySelector('i');
+                    if (icon) {
+                        icon.classList.toggle('fa-bars');
+                        icon.classList.toggle('fa-times');
+                    }
+                });
+
+                const mobileMenuLinks = mobileMenu.querySelectorAll('a');
+                mobileMenuLinks.forEach(link => {
+                    link.addEventListener('click', () => {
+                        mobileMenu.classList.add('hidden');
+                        const icon = mobileMenuButton.querySelector('i');
+                        if (icon) {
+                            icon.classList.remove('fa-times');
+                            icon.classList.add('fa-bars');
+                        }
+                    });
+                });
+            }
+        });
+    </script>
+</body>
 </body>
 </html>
